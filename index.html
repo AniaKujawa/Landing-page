@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>Wizytówka - Anna Kujawa</title>
+        <meta name="viewport" content="width=device-width">
         <meta name="description" content= "Wizytówka Anny Kujawa, zawierająca jej portfolio i 
         podstawowe informacje o jej działalności frontendowej." />
         <meta name="keywords" content="wizytówka, portfolio, frontend" />
@@ -42,7 +43,7 @@
                 <div class="quick">
                             <p>Let me know if I can help you with your projects!</p>
                             <div class="wrapper">
-                                <button class="contact-btn">Contact me!</button>
+                                <button href="#contact" class="contact-btn">Contact me!</button>
                                 <button class="cv-btn">Check my CV</button>
                             </div>
                             
@@ -57,12 +58,11 @@
                 <div class="box">
                     <p class="personal-data">
                         Full Name: <span class="data mobile-col">Anna Kujawa</span>  <br>
-                        Year: <span class="data mobile-col">xxx</span> <br>
                         Phone: <span class="data mobile-col">123-456-789</span> <br>
-                        Email: <span class="data mobile-col">xyz@gmail.com </span> 
+                        Email: <span class="data mobile-col">kujawanna@gmail.com </span> 
                     </p>
                         <p class="introduction">I am Anna Kujawa. I am student of last year of Quantitative Methods 
-                            in Economic and Information Systems.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ex ea commodo consequat.</p>
+                            in Economic and Information Systems. I have 3-months commercial experience in programming (React, Node JS, GO). I've started programming one year ago and I try to improve my skills during many workshops and projects. I've participated in a third edition of CodersCamp web development course which last 3 months. I've had opportunity to learn a lot of theory and use it in practise in team's projects. I've passed all of exams and achieved certificate. I've also participated in Front - end Level Up Course and get certificate for presence and making homeworks. I like to learn on short, weekend workshops or on my own too. Nowadays, I am writing my master thesis about IT job offers market. I am analysing job offers which I scraped using Node JS. I hope to find interesting job in web development!</p>
                 </div>
             </div>
         </section>
@@ -171,51 +171,73 @@
                      <div class="portfolio">
                         <div class="portfolio-box">
                                 <figure>
-                                        <a href="#"><img src="img/img-1.jpg" alt="To do app"></a>
-                                        <figcaption>To-do list <br />
-                                        <span class="data"> www.to-dolist.pl </span> <br />
-                                        Lorem ipsum
+                                        <a href="https://safety-life-list.herokuapp.com/"><img src="img/img-1.jpg" alt="To do app" target="_blank"></a>
+                                        <figcaption>Safety-Life list <br />
+                                        <a href="https://safety-life-list.herokuapp.com/" class="data" target="_blank"> https://safety-life-list.herokuapp.com/ </a> <br />
+                                        Application which helps to manage tasks like Trello. Made during CodersCamp 2019. 
+                                        <div><span class="data">My role:</span> logging and registering system, saving, updating and deleting tasks both backend and frontend, development on heroku.</div> <span class="data">Used:</span> Node js, Express, Mongo DB, JS, HTML, CSS, RWD.
                                         </figcaption>
                                     </figure>
                         </div>
                         <div class="portfolio-box">
                                 <figure>
-                                        <a href="#"><img src="img/weather.jpeg" alt="Weather app"></a>
+                                        <a href="https://campteam.gitlab.io/vetero/"><img src="img/weather.jpeg" alt="Weather app" target="_blank"></a>
                                         <figcaption>Weather app  <br />
-                                            <span class="data"> www.weather-app.pl </span> <br />
-                                            Lorem ipsum</figcaption>
+                                            <a href="https://campteam.gitlab.io/vetero/" class="data" target="_blank"> https://campteam.gitlab.io/vetero/ </a> <br />
+                                            Check weather app using OpenWeather API, any location in Poland. Forecast for 5 days. Made during CodersCamp 2019.
+                                            <div><span class="data">My role:</span> displaying fetched data, showing date, connecting icons with data
+                                            <span class="data">Used:</span>  HTML5, CSS3, RWD, JavaScript.</figcaption>
+                                    </figure>
+                        </div>
+                 
+                        <div class="portfolio-box">
+                                <figure>
+                                        <a href="#"><img src="img/img-4.jpeg" alt="New" target="_blank"></a>
+                                        <figcaption>OWLearning Portal <br />
+                                            <span class="data"> www.tobedone.pl </span> <br />
+                                            in progress: OWLearning Portal allows to creates tutorials and learn from checklists, join many teams and manage them. Made during CodersCamp 2019.
+                                            <div><span class="data">My role: </span> checklists component, teams component, route logic </div> 
+                                             <span class="data">Used:</span> React, Mongo DB </figcaption>
+                                    </figure>
+                        </div>
+
+                        <div class="portfolio-box">
+                            <figure>
+                                    <a href="https://aniakujawa.github.io/drink-app/"><img src="img/drinks.jpg" alt="Drinks app" target="_blank"></a>
+                                    <figcaption>Drink app  <br />
+                                        <a href="https://aniakujawa.github.io/drink-app/" class="data"> https://aniakujawa.github.io/drink-app/ </a> <br />
+                                        Template of website with drinks made by me as a homework on Frontend Level-Up Course.
+                                        <div><span class="data">Used:</span> HTML5, SASS, webpack, BEM methodology</div></figcaption>
+                                </figure>
+                        </div>
+                        
+                        <div class="portfolio-box">
+                            <figure>
+                                    <a href="https://aniakujawa.github.io/budget-app/"><img src="img/budget.jpg" alt="Budget app" target="_blank"></a>
+                                    <figcaption>Budget app  <br />
+                                        <a href="https://aniakujawa.github.io/budget-app/" class="data"> https://aniakujawa.github.io/budget-app/ </a> <br />
+                                        Budget app allows to create and calculate expenses and incomes. Made with 'The Complete JavaScript Course 2019: Build Real Projects!' by Jonas Schmedtmann. Analyzing and improved by me with localStorage which makes the app usable in real life :)
+                                        <div><span class="data">Used:</span> HTML5, CSS3, JavaScript</div></figcaption>
+                                </figure>
+                        </div>
+
+                        <div class="portfolio-box">
+                                <figure>
+                                        <a href="https://aniakujawa.github.io/warsawjs-workshop-26-my-photos/"><img src="img/img-5.jpeg" alt="Photo gallery" target="_blank"></a>
+                                        <figcaption>Photo gallery <br />
+                                            <a href="https://aniakujawa.github.io/warsawjs-workshop-26-my-photos/" class="data"> https://aniakujawa.github.io/warsawjs-workshop-26-my-photos/</a> <br />
+                                            The app allows to look over the photos and upload more, watch photos in carusel. Made during warsawJS workshops and then developed by me.
+                                            <div><span class="data">Used: </span>HTML5, CSS3, JavaScript</figcaption>
                                     </figure>
                         </div>
                         <div class="portfolio-box">
                                 <figure>
-                                        <a href="#"><img src="img/cinema.jpeg" alt="Cinema app"></a>
-                                        <figcaption>Cinema app  <br />
-                                            <span class="data"> www.cinema-app.pl </span> <br />
-                                            Lorem ipsum</figcaption>
-                                    </figure>
-                        </div>
-                        <div class="portfolio-box">
-                                <figure>
-                                        <a href="#"><img src="img/img-4.jpeg" alt="New"></a>
-                                        <figcaption>New app <br />
-                                            <span class="data"> www.new.pl </span> <br />
-                                            Lorem ipsum</figcaption>
-                                    </figure>
-                        </div>
-                        <div class="portfolio-box">
-                                <figure>
-                                        <a href="#"><img src="img/img-5.jpeg" alt="New"></a>
-                                        <figcaption>New app <br />
-                                            <span class="data"> www.new.pl </span> <br />
-                                            Lorem ipsum</figcaption>
-                                    </figure>
-                        </div>
-                        <div class="portfolio-box">
-                                <figure>
-                                        <a href="#"><img src="img/img-6.jpeg" alt="New"></a>
-                                        <figcaption>New app <br />
-                                            <span class="data"> www.new.pl </span> <br />
-                                            Lorem ipsum</figcaption>
+                                        <a href="https://aniakujawa.github.io/manage-app"><img src="img/manage_app.jpg" alt="New" target="_blank"></a>
+                                        <figcaption>Manage app <br />
+                                            <a href="https://aniakujawa.github.io/manage-app" class="data"> https://aniakujawa.github.io/manage-app </a> <br />
+                                            The application which helps manage business time, includes to do list, calender an checking weather.
+                                            <div><span class="data">Used: </span>React, OpenWeather API, Styled Components
+                                        </figcaption>
                                     </figure>
                         </div>
                     </div>
@@ -236,10 +258,7 @@
                             </div> 
 
                                 <div class="address">                               
-                                    <p><strong>Warsaw, Poland</strong></p>
-                                    <p>Kolorowa 8/3 09-789</p>
-                                    <p>+48 999 999 999</p>                                
-                                    <p>xyz@gmail.com</p>
+                                    <p><strong>Warsaw, Poland</strong></p>                          <p>kujawanna@gmail.com</p>
                                 </div>
                             
                                     <a href='http://www.linkedin.com/in/annakujawa' target='_blank'><i class="fab fa-linkedin fa-lg"></i></a>
