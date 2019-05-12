@@ -645,6 +645,19 @@ button {
         margin-top: 5%;
     }
 
+    /* ABOUT ME */
+    .box {
+        display:block;
+    }
+
+    .about .box .personal-data {
+        border-bottom: 1px solid var(--second-bg-color);
+    }
+
+    .about .box .introduction {
+        border: none;
+} 
+
     .skills {
         display: -webkit-box;
         display: -ms-flexbox;
