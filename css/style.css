@@ -721,7 +721,7 @@ button {
         min-height: 100px; 
         height: auto;
         margin: 2% 5%; 
-        width: calc(100% *(1/2) - 10%);
+        width: calc(100% - 10%);
         background-color: white;
         display: -webkit-box;
         display: -ms-flexbox;
