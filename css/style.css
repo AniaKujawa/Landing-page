@@ -216,6 +216,7 @@ button {
     display: inline-block;
     top: 50%;
     left: 50%;
+    margin-bottom: 20px;
   }
 
 .contact-btn {
@@ -225,6 +226,11 @@ button {
     border: 1px solid var(--second-bg-color);
     cursor: pointer;
     line-height: 2;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
 }
 
 .contact-btn:hover {
@@ -239,6 +245,11 @@ button {
     border: 1px solid var(--second-bg-color);
     cursor: pointer;
     line-height: 2;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
 }
 
 .cv-btn:hover {
